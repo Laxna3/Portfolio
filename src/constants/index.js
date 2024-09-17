@@ -15,14 +15,7 @@ export const EXPERIENCES = [
     description: `Responsible for designing and implementing the company’s website. Translating design concepts into interactive and responsive web pages, ensuring a seamless user experience.collaborated closely with designers and back-end developers to bring the site to life, focusing on performance optimization and maintaining a consistent brand identity across all digital touchpoints.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
   },
-  {
-    year: "Aug 2024 - present",
-    role: "Full Stack Developer",
-    company: "Suvidha Foundation",
-    description: `As a full-stack developer intern at Suvidha Foundation, the role involved building a website that allows users to apply for job openings. Responsibilities included developing both the front-end and back-end of the site, ensuring a smooth and efficient user experience. Implemented features allowed users to browse job listings, submit applications, and receive confirmations, while maintaining the site's functionality and security.`,
-    technologies: ["React.js", "Next.js", "Node.js", "mySQL"],
-  },
-  
+    
 ];
 
 export const PROJECTS = [
