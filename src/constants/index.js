@@ -9,7 +9,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Aug 2024 - Present",
+    year: "Aug 2024 - 31st Oct 2024",
     role: "Front-end Developer Intern",
     company: "Echo Sphere.",
     description: `Responsible for designing and implementing the company’s website. Translating design concepts into interactive and responsive web pages, ensuring a seamless user experience.collaborated closely with designers and back-end developers to bring the site to life, focusing on performance optimization and maintaining a consistent brand identity across all digital touchpoints.`,
