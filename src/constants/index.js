@@ -1,6 +1,7 @@
 import portfolio from "../assets/projects/portfolio.png";
 import blog from "../assets/projects/blog.png";
 import bts from "../assets/projects/bts.png";
+import interview from "../assets/projects/interview.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -9,22 +10,28 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Aug 2024 - 31st Oct 2024",
+    year: "Nov 2024 - Feb 2025",
+    role: "Front-end Developer Intern",
+    company: "Lawstream.",
+    description: `Responsible for designing and implementing the company’s website. My role was to develop and maintain the frontend of the Trademark Management Tool using technologies like Nextjs etc.`,
+    technologies: ["Javascript", "React.js", "Next.js", "TailwindCSS","mongoDB"],
+  },
+  {
+    year: "Aug 2024 - Oct 2024",
     role: "Front-end Developer Intern",
     company: "Echo Sphere.",
     description: `Responsible for designing and implementing the company’s website. Translating design concepts into interactive and responsive web pages, ensuring a seamless user experience.collaborated closely with designers and back-end developers to bring the site to life, focusing on performance optimization and maintaining a consistent brand identity across all digital touchpoints.`,
     technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-    
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "BTS Website",
-    image: bts,
+    title: "CrackIt",
+    image: interview,
     description:
-      "Designed a dynamic website for BTS fans using Next.js, Sanity, and React.js. Showcased skills in creating interactive interfaces, managing content with a headless CMS, and ensuring real-time updates to keep fans connected with the latest BTS news.",
-    technologies: ["Next.js", "Sanity CMS", "React"],
+      "An AI-powered interview preparation app built with Next.js, Tailwind CSS, Vapi, and Firebase that offers voice-based mock interviews, personalized feedback, and performance tracking to help users confidently prepare for real job interviews.",
+    technologies: ["Vapi","Firebase", "Next.js", "Tailwind"],
   },
   {
     title: "Blog Website",
@@ -34,12 +41,12 @@ export const PROJECTS = [
     technologies: ["Typescript", "Next.js", "React.js", "Sanity CMS"],
   },
   {
-    title: "Portfolio Website",
-    image: portfolio,
+    title: "BTS Website",
+    image: bts,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Framer Motion", "React", "Tailwind"],
-  },
+      "Designed a dynamic website for BTS fans using Next.js, Sanity, and React.js. Showcased skills in creating interactive interfaces, managing content with a headless CMS, and ensuring real-time updates to keep fans connected with the latest BTS news.",
+    technologies: ["Next.js", "Sanity CMS", "React"],
+  }  
   
 ];
 
