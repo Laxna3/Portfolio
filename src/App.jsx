@@ -17,12 +17,12 @@ const App = () => {
 
       <div className="container mx-auto px-8">
         <Navbar />
-        <Hero />
-        <About />
-        <Technologies />
-        <Experience />
-        <Projects />
-        <Contact />
+        <div id="hero"><Hero /></div>
+        <div id="about"><About /></div>
+        <div id="skills"><Technologies /></div>
+        <div id="experience"><Experience /></div>
+        <div id="projects"><Projects /></div>
+        <div id="contact"><Contact /></div>
       </div>
     </div>
   );

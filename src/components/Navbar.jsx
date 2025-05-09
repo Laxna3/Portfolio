@@ -8,26 +8,25 @@ const Navbar = () => {
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-xl">
         <p>
-          <a href="Home.jsx">Home</a>
+          <a href="#hero">Home</a>
         </p>
         <p>
-          <a href="About.jsx">About</a>
+          <a href="#about">About</a>
         </p>
         <p>
-          <a href="Technologies.jsx">Technologies</a>
+          <a href="#skills">Skills</a>
         </p>
         <p>
-          <a href="Experience.jsx">Experience</a>
+          <a href="#experience">Experience</a>
         </p>
         <p>
-          <a href="Projects.jsx">Projects</a>
+          <a href="#projects">Projects</a>
         </p>
         <button className="bg-purple-500 p-2 text-black rounded-xl text-sm">
           <a
-            href="https://drive.google.com/file/d/1kTW2YqmjM6-IQvj3zY1Si3uNailJej88/view?usp=drive_link"
-            download
+            href="https://drive.google.com/file/d/1AVpDad1walEQil7A3umJbEh79VqUcsmY/view?usp=drivesdk "
           >
-            Download CV
+            View CV
           </a>
         </button>
       </div>
